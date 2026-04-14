@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 1. 깃허브에 있는 CSV 파일 읽기
-file_path = "daangn_region_ids.csv"
+file_path = "daangn_with_coords.csv"
 try:
     df = pd.read_csv(file_path)
     print(f"원본 데이터 불러오기 완료. (총 {len(df)}줄)")

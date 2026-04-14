@@ -41,7 +41,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add daangn_region_ids.csv
+          git add daangn_with_coords.csv
           # 변경사항이 있을 때만 저장(commit) 하도록 처리
           git commit -m "Auto-update: 중복 제거 및 DB 정리" || echo "No changes to commit"
           git push
